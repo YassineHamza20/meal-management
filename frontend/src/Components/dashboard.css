@@ -1,0 +1,97 @@
+.food-list {
+    max-width: 600%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f8f8f8;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-food-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-food-button:hover {
+    background-color: #218838;
+  }
+  
+  .food-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .food-table th,
+  .food-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+  }
+  
+  .food-table th {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .food-table tr {
+    transition: background-color
+    0.3s ease;
+}
+
+.food-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.food-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 70%;
+}
+
+.food-name {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.food-price {
+  display: block;
+  color: #777;
+}
+
+.details-button,
+.delete-button {
+  margin: 5px -33px 0 0;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.details-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: red;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+  

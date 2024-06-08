@@ -1,0 +1,110 @@
+.food-details {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .food-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .food-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .food-price {
+    font-size: 20px;
+    color: green;
+  }
+  
+  .edit-button, .delete-button, .save-button, .cancel-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: rgb(15, 14, 14);
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-button {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .food-details {
+    /* Existing styles */
+    @media (max-width: 768px) {
+      max-width: 70%;
+      margin: 50px auto;
+    }
+  }
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 768px) {
+      flex-direction: row;
+      gap: 10px;
+    }
+  }
+  
+  .form-group {
+    flex: 1; /* Makes form elements take up equal space on larger screens */
+  }
+  

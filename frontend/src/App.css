@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  
+}
+
+.read-the-docs {
+  color: #888;
+}
+.menu-header {
+  font-size: 40px; /* Adjust size as needed */
+  color: red; /* Sets the text color */
+  font-weight: bold; /* Makes the text bold */
+  text-align: center; /* Centers the text */
+  position: relative; /* Needed for positioning the pseudo-element */
+  padding: 10px 0; /* Adds space around the text */
+   
+}
+
+.menu-header::after {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute; /* Positions relative to the parent */
+  left: 50%; /* Start from the middle */
+  bottom: 0; /* Aligns to the bottom of the parent */
+  width: 70%; /* Adjust width as needed */
+  height: 2px; /* Height of the underline */
+  background-color: red; /* Color of the underline */
+  transform: translateX(-50%); /* Shifts the element leftwards by half its width */
+  
+}
+.menu-icon {
+  font-size: 30px; /* Slightly larger than the text for emphasis */
+  padding: 0 10px; /*  background-color: #f0f0f0; */
+}
+.fajitas-header {
+    font-family: 'Roboto', sans-serif;
+    color: #4CAF50;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px 0; /*  background-color: #f0f0f0; */
+   
+}
+
